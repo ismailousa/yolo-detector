@@ -12,7 +12,7 @@ endpoint_url = "http://localhost:8002/yolo/detect_objects/"
 
 # Open a connection to the webcam (usually, 0 represents the default camera)
 cap = cv2.VideoCapture(0)
-while count < 2:
+while True:
     # Read a frame from the webcam
     ret, frame = cap.read()
 
@@ -51,8 +51,6 @@ while count < 2:
     # Break the loop if the 'q' key is pressed
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
-
-    count = count + 1
 
 # Release the webcam and close any OpenCV windows
 cap.release()
