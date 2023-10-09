@@ -42,12 +42,8 @@ while count < 2:
 
         # Process the response if needed
         data = response.json()
-        print(data)
     except Exception as e:
         print(f"Error sending request: {e}")
-
-    resp = yolov5_model.predict(np.array(image))
-    print(resp)
 
     # Display the frame in an OpenCV window
     cv2.imshow("Camera Stream", frame)

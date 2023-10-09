@@ -16,12 +16,12 @@ To install and run this project, follow these steps:
 
 1. Clone this repository to your local machine:
 ```
-git clone https://github.com/yourusername/object-detection.git
+git clone https://github.com/ismailousa/yolo-detector.git
 ```
 
 2. Navigate to the project directory:
 ```
-cd object-detection
+cd yolo-detector
 ```
 
 3. Use Poetry to install the project dependencies:
